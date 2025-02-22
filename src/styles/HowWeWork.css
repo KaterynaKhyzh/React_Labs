@@ -1,0 +1,54 @@
+/* Як ми працюємо */
+.how-we-work {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  margin-left: 165px;
+  margin-right: 225px;
+  align-items: flex-start;
+}
+
+.get-in-touch {
+  width: 30%;
+}
+
+.get-in-touch h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.get-in-touch p {
+  margin-bottom: 20px;
+}
+
+.get-in-touch-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.work-steps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 65%;
+}
+
+.step {
+  padding: 20px;
+}
+
+.step-number {
+  background-color: #ffc107;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.step h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}

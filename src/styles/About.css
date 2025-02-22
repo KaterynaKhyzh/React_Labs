@@ -1,0 +1,145 @@
+/* Сторінка About Us */
+.about-us {
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-us-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.about-us-left {
+  width: 45%;
+}
+
+.about-us-image {
+  width: 45%;
+}
+
+.about-us-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-us h3 {
+  margin-top: 26px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.about-us h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.about-us p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.about-us-goals {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goal {
+  width: 48%;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #72879aba;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.goal:nth-child(2) {
+  background-color: #dfdda6;
+}
+
+.goal h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.goal p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.process {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.process h2 {
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.process-steps {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 255, 0.573);
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+  margin-bottom: 26px;
+}
+.mission-vision {
+  padding: 50px;
+  text-align: center;
+}
+
+.mission-vision-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mission,
+.vision {
+  width: 45%;
+  padding: 20px;
+  text-align: left;
+}
+.mission h3,
+.vision h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.mission h2,
+.vision h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.mission p,
+.vision p {
+  font-size: 16px;
+  line-height: 25.6px;
+  color: #666;
+}
+.mission-image,
+.vision-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+}
