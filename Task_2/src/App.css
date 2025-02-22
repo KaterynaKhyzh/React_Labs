@@ -1,0 +1,17 @@
+/* Анімація прокручення */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.animate-on-scroll.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
